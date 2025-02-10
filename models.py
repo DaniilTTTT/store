@@ -6,3 +6,6 @@ class UserResponse(BaseModel):
 
 class User(BaseModel):
     name: str
+
+class UserDelete(BaseModel):
+    id: int
